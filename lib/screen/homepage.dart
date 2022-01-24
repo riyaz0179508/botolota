@@ -32,14 +32,11 @@ class _HomePageState extends State<HomePage> {
               height:70,
             ),
             Container(
-              child: Image.asset("assets/images/buy.jpg"),
-              height:400,
+              child: Image.asset("assets/images/img.png"),
+              height:600,
               width: MediaQuery.of(context).size.width,
             ),
-            Text("Online MarketPlace", style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),),
-            SizedBox(
-              height: 150,
-            ),
+
             InkWell(
               onTap: ()async{
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>MyWebView()));
